@@ -1,3 +1,15 @@
-const presets = ["@babel/preset-env", "@babel/preset-react"];
-
-module.exports = { presets };
+module.exports = {
+  presets: ["@babel/preset-env", "@babel/preset-react"],
+  plugins: [
+    [
+      "module-resolver",
+      {
+        root: ["./src"],
+        alias: {
+          Assets: "./assets",
+          Components: "./components"
+        }
+      }
+    ]
+  ]
+};

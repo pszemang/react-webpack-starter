@@ -1,9 +1,13 @@
 import React from "react";
 import style from "./styles.css";
-import webpackSvg from "../assets/webpack.svg";
+import webpackSvg from "Assets/webpack.svg";
+import { Header } from "Components";
 
-const App = () => {
-  return <div><img class="logo" src={webpackSvg} />React webpack starter</div>;
-};
+const App = () => (
+  <div>
+    <Header />
+    <img class="logo" src={webpackSvg} />
+  </div>
+);
 
 export default App;
