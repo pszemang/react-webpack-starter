@@ -1,7 +1,6 @@
 import React from "react";
+import { Heading } from "./styled";
 
-const Header = () => (
-  <h1>React Webpack starter</h1>;
-);
+const Header = () => <Heading>React Webpack starter</Heading>;
 
 export default Header;

@@ -4,12 +4,12 @@ module.exports = {
     [
       "module-resolver",
       {
-        root: ["./src"],
         alias: {
           Assets: "./assets",
-          Components: "./components"
+          Components: "./src/components"
         }
       }
-    ]
+    ],
+    ["babel-plugin-styled-components", { displayName: true }]
   ]
 };
