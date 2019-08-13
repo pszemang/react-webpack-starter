@@ -14,5 +14,5 @@ Custom React starter built with webpack.
 2. ES6 support thanks to `babel`
 3. Development server (`webpack-dev-server`)
 4. Files loader (png, svg, jpg, gif)
-5. Styles loader (css)
+5. Styling: styled-components, css files (via loaders)
 6. Absolute imports support (via aliases on `babel.config.js`)
